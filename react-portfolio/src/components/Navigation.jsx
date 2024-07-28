@@ -1,27 +1,39 @@
-
-import { NavLink } from "react-router-dom";
+// src/components/Navigation.jsx
+import { NavLink } from 'react-router-dom';
 
 function Navigation() {
   return (
     <nav>
       <ul>
         <li>
-          <NavLink exact to="/" activeClassName="active">
+          <NavLink
+            to="/"
+            className={({ isActive }) => (isActive ? 'active' : '')}
+          >
             About Me
           </NavLink>
         </li>
         <li>
-          <NavLink to="/portfolio" activeClassName="active">
+          <NavLink
+            to="/portfolio"
+            className={({ isActive }) => (isActive ? 'active' : '')}
+          >
             Portfolio
           </NavLink>
         </li>
         <li>
-          <NavLink to="/contact" activeClassName="active">
+          <NavLink
+            to="/contact"
+            className={({ isActive }) => (isActive ? 'active' : '')}
+          >
             Contact
           </NavLink>
         </li>
         <li>
-          <NavLink to="/resume" activeClassName="active">
+          <NavLink
+            to="/resume"
+            className={({ isActive }) => (isActive ? 'active' : '')}
+          >
             Resume
           </NavLink>
         </li>

@@ -1,4 +1,3 @@
-// src/components/Contact.jsx
 import { useState } from 'react';
 
 function Contact() {
@@ -39,17 +38,40 @@ function Contact() {
       <form onSubmit={handleSubmit}>
         <div>
           <label htmlFor="name">Name</label>
-          <input type="text" name="name" value={form.name} onChange={handleChange} onBlur={handleBlur} />
+          <input
+            type="text"
+            id="name"
+            name="name"
+            value={form.name}
+            onChange={handleChange}
+            onBlur={handleBlur}
+            autoComplete="name"
+          />
           {errors.name && <span>{errors.name}</span>}
         </div>
         <div>
           <label htmlFor="email">Email</label>
-          <input type="email" name="email" value={form.email} onChange={handleChange} onBlur={handleBlur} />
+          <input
+            type="email"
+            id="email"
+            name="email"
+            value={form.email}
+            onChange={handleChange}
+            onBlur={handleBlur}
+            autoComplete="email"
+          />
           {errors.email && <span>{errors.email}</span>}
         </div>
         <div>
           <label htmlFor="message">Message</label>
-          <textarea name="message" value={form.message} onChange={handleChange} onBlur={handleBlur} />
+          <textarea
+            id="message"
+            name="message"
+            value={form.message}
+            onChange={handleChange}
+            onBlur={handleBlur}
+            autoComplete="off"
+          />
           {errors.message && <span>{errors.message}</span>}
         </div>
         <button type="submit">Submit</button>

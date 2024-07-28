@@ -40,3 +40,37 @@
 .read-the-docs {
   color: #888;
 }
+/* src/App.css */
+
+.about-me {
+  text-align: center;
+  padding: 2rem;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  margin: 2rem auto;
+  max-width: 800px;
+}
+
+.about-me__photo {
+  width: 150px; /* Adjust width as needed */
+  height: 150px; /* Adjust height as needed */
+  border-radius: 50%; /* Make the image round */
+  margin-bottom: 1rem;
+}
+
+.about-me h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.about-me p {
+  font-size: 1rem;
+  margin-bottom: 1rem;
+  line-height: 1.5;
+}
+
+.active {
+  font-weight: bold;
+  color: pink; /* Adjust the styles as needed */
+}
