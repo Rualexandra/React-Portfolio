@@ -48,4 +48,8 @@ You can explore the portfolio online at Deployed Portfolio.
     Vite: A fast build tool for modern web projects.
     Netlify: Hosting and continuous deployment.
 
+## Portfolio Link
+[alexandraruizportfolio.netlify.app](https://alexandraruizportfolio.netlify.app/)
+
+
 Thank you for visiting my portfolio!
