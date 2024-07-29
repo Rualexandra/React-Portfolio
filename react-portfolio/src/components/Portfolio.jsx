@@ -5,7 +5,7 @@ function Portfolio() {
   const projects = [
     {
       title: "International Travel Planner",
-      image: "/public/images/International Travel Planner.png",
+      image: "/images/International Travel Planner.png",
       deployedLink:
         "https://travisjblack.github.io/International-Travel-Planner",
       repoLink:
@@ -25,19 +25,19 @@ function Portfolio() {
     },
     {
       title: "Logo Generator",
-      image: "/public/images/Logo generator.png",
+      image: "/images/Logo generator.png",
       deployedLink: "https://watch.screencastify.com/v/sjDFoNfUxnkKlsRM3TVm",
       repoLink: "https://github.com/Rualexandra/Logo-Generator.git",
     },
     {
       title: "ReadMe Generator",
-      image: "react-portfolio/public/images/ReadMe Generator.png",
+      image: "/images/ReadMe Generator.png",
       deployedLink: "https://watch.screencastify.com/v/jNBKIKpmpTxVO03yKOsU",
       repoLink: "https://github.com/Rualexandra/README-Generator.git",
     },
     {
       title: "Weather Dashboard",
-      image: "react-portfolio/public/images/Dashboard.png",
+      image: "/images/Dashboard.png",
       deployedLink: "https://rualexandra.github.io/Weather-Dashboard/",
       repoLink: "https://github.com/Rualexandra/Weather-Dashboard.git",
     },
