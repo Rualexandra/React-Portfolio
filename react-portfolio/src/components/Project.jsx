@@ -1,10 +1,11 @@
 import PropTypes from "prop-types";
+import "./Project.css"; // Import the CSS file
 
 function Project({ title, image, deployedLink, repoLink }) {
   return (
     <div className="project">
       <h3>{title}</h3>
-      <img src={image} alt={title} />
+      <img src={image} alt={title} className="project__image" />
       <p>
         <a href={deployedLink} target="_blank" rel="noopener noreferrer">
           Deployed App
