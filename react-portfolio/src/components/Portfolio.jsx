@@ -35,6 +35,12 @@ function Portfolio() {
       deployedLink: "https://watch.screencastify.com/v/jNBKIKpmpTxVO03yKOsU",
       repoLink: "https://github.com/Rualexandra/README-Generator.git",
     },
+    {
+      title: "Weather Dashboard",
+      image: "react-portfolio/public/images/Dashboard.png",
+      deployedLink: "https://rualexandra.github.io/Weather-Dashboard/",
+      repoLink: "https://github.com/Rualexandra/Weather-Dashboard.git",
+    },
     // Add more projects here
   ];
 

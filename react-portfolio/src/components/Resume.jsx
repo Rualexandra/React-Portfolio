@@ -3,7 +3,7 @@ function Resume() {
   return (
     <section>
       <h2>Resume</h2>
-      <a href="/path/to/resume.pdf" download>
+      <a href="/public/Portfolio Resume.docx (3).pdf" download>
         Download Resume
       </a>
       <h3>Proficiencies</h3>
