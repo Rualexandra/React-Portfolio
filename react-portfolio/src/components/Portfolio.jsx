@@ -41,6 +41,12 @@ function Portfolio() {
       deployedLink: "https://rualexandra.github.io/Weather-Dashboard/",
       repoLink: "https://github.com/Rualexandra/Weather-Dashboard.git",
     },
+    {
+      title: "Fitness Fusion",
+      image: "/images/fitnessfusion.png",
+      deployedLink: "https://fitness-fusion-kzry.onrender.com/",
+      repoLink: "https://github.com/TravisJBlack/Fitness-Fusion.git",
+    },
     // Add more projects here
   ];
 
